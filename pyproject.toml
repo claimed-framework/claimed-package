@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "claimed"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="The CLAIMED authors", email="claimed-framework@proton.me"},
 ]
@@ -21,8 +21,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    'claimed-c3 >= 0.2.4',
-    'claimed-cli >= 0.1.0',
+    'claimed-c3 >= 0.3.3',
+    'claimed-cli >= 0.1.5',
 ]
 
 [project.urls]
